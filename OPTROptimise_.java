@@ -539,11 +539,11 @@ public class OPTROptimise_ implements PlugIn {
 		if (manager == null)
 			manager = new RoiManager();
 		
-/*		PolygonRoi Proi0 = new PolygonRoi(Xi0,Zi,Xi0.length,Roi.POLYLINE);
+		PolygonRoi Proi0 = new PolygonRoi(Xi0,Zi,Xi0.length,Roi.POLYLINE);
 		Proi0.setStrokeColor(Color.red);
 		imp.setRoi((Roi)Proi0);
 		manager.addRoi(Proi0); 
-			*/
+			
 				
 /*		PolygonRoi Proi2 = new PolygonRoi(PXi,Zi,PXi.length,Roi.POLYLINE);
 		Proi2.setStrokeColor(Color.blue);
