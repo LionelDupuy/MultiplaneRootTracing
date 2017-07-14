@@ -1,6 +1,18 @@
 /**
- * Plugin for fine reconstruction of 3D trajectory from MEVISLAB's Tubular tracking
- * Lionel Dupuy 2016
+ Main authors: L.X. Dupuy
+	This program is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation; either version 2 of the License, or
+	(at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License along
+	with this program; if not, write to the Free Software Foundation, Inc.,
+	51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  * JHI - Plant Systems Modelling
  */
  
@@ -543,7 +555,7 @@ public class OPTROptimise_ implements PlugIn {
 		Proi0.setStrokeColor(Color.red);
 		imp.setRoi((Roi)Proi0);
 		manager.addRoi(Proi0); 
-			
+
 				
 /*		PolygonRoi Proi2 = new PolygonRoi(PXi,Zi,PXi.length,Roi.POLYLINE);
 		Proi2.setStrokeColor(Color.blue);
